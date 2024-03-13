@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameServerAPI", "GameServerAPI/GameServerAPI.csproj", "{71FEAF68-9AFA-4FBF-B31F-3E2B87368182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4F9606E3-31B7-4227-ADE8-57BFA218389F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{DFB966F9-BF17-4CD4-8AEC-8C52A4B124C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71FEAF68-9AFA-4FBF-B31F-3E2B87368182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FEAF68-9AFA-4FBF-B31F-3E2B87368182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FEAF68-9AFA-4FBF-B31F-3E2B87368182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FEAF68-9AFA-4FBF-B31F-3E2B87368182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9606E3-31B7-4227-ADE8-57BFA218389F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9606E3-31B7-4227-ADE8-57BFA218389F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9606E3-31B7-4227-ADE8-57BFA218389F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9606E3-31B7-4227-ADE8-57BFA218389F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB966F9-BF17-4CD4-8AEC-8C52A4B124C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB966F9-BF17-4CD4-8AEC-8C52A4B124C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB966F9-BF17-4CD4-8AEC-8C52A4B124C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB966F9-BF17-4CD4-8AEC-8C52A4B124C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E91CFEA-AE12-4D7D-8A5D-FF2D69172D84}
+	EndGlobalSection
+EndGlobal
